@@ -6,4 +6,5 @@ One goal of this project, is that it should strictly be under 1000 lines when do
 
 * BotFather 获取 authtoken 并修改 server.js
 * npm install
+* 命令行代理设置
 * npm start 
