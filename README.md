@@ -7,11 +7,11 @@ For a sender, you need
  * Run a CKB Testnet node
  * Send and pay red envelopes
  * Use `ckb-cli`(recommended tool) to sign the messages required by the transaction
- * Use `generate-message-tool` to validate the messages by the transaction.
+ * Use `generate-message-tool` to validate the messages by the transaction
  
-For a grabber,you just need
- * Set a receiving CKB Testnet address.
- * Grad the red envelopes.
+For a grabber, you just need
+ * Set a receiving CKB Testnet address
+ * Grad the red envelopes
 
 As grabbers’ operation is very simple, we will introduce the user guide in detail for senders below.
 
@@ -32,7 +32,7 @@ pay - Pay an envelope
 send - send envelopes
 ``` 
  
- * Fill in the bot token.
+ * Fill in the bot token
  
  ```bash
  /lib/server.js
@@ -52,7 +52,7 @@ This step is done by interacting with felix except prepare a CKB Testnet address
 
 ### Use [`ckb-cli`](https://github.com/nervosnetwork/ckb-cli)(recommended tool) to sign the messages
 
-Felix will provide messages required by the transaction for signing.It's recommended to use [`ckb-cli`](https://github.com/nervosnetwork/ckb-cli) 
+Felix will provide messages required by the transaction for signing.It's recommended to use [`ckb-cli`](https://github.com/nervosnetwork/ckb-cli).
 
 ```bash
 $ ckb-cli
@@ -60,7 +60,7 @@ $ ckb-cli
 $ util sign-message --recoverable --from-account `the args of the address used to pay for the red envelope` --message `the message required by the transaction`
 ```
 
-After signing the messages you will get the signatures, please send it to felix then the whole transaction will be generated and committed to CKB Testnet,the red envelope is successfully paid!
+After signing the messages you will get the signatures, please send it to felix then the whole transaction will be generated and committed to CKB Testnet, the red envelope is successfully paid!
 
 ### Use `generate-message-tool` to validate the messages
 
