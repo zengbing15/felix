@@ -5,7 +5,7 @@ Felix is a telegram bot demo for interacting with CKB, hopefully with [luck](htt
 For a sender, you need 
  * Set up a telegram bot 
  * Run a CKB Testnet node
- * Send and pay red envelopes
+ * Run the felix bot
  * Use `ckb-cli`(recommended tool) to sign the messages required by the transaction
  * Use `generate-message-tool` to validate the messages by the transaction
  
@@ -44,10 +44,23 @@ send - send envelopes
 
 Please refer the [tutorial](https://docs.nervos.org/docs/basics/guides/testnet) for more details. 
 
+### Run the felix bot
 
-### Send and pay red envelopes
+* Install dependencies
+```bash
+npm install
+``` 
+* Set up the proxy server
 
-This step is done by interacting with felix except prepare a CKB Testnet address with enough tokens, you can use [Nervos Aggron Faucet](https://faucet.nervos.org/) to claim CKB Testnet tokens.
+```bash
+export https_proxy=http://127.0.0.1:10080;export http_proxy=http://127.0.0.1:10080;export all_proxy=socks5://127.0.0.1:10081
+```
+* Start the felix bot
+```bash
+npm start
+``` 
+
+Then you can interact with felix to send and pay red envelops and don't forget to prepare a CKB Testnet address with enough tokens, you can use [Nervos Aggron Faucet](https://faucet.nervos.org/) to claim CKB Testnet tokens.
 
 
 ### Use [`ckb-cli`](https://github.com/nervosnetwork/ckb-cli)(recommended tool) to sign the messages
