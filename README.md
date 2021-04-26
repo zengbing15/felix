@@ -2,23 +2,23 @@
 
 Felix is a telegram bot demo for interacting with CKB, hopefully with [luck](https://harrypotter.fandom.com/wiki/Felix_Felicis).We can use felix to send and grab CKB red envelopes.For now,felix is only used on the CKB Testnet, will be migrated to the CKB Mainnet for actual usage later. 
 
-* For a sender, you need 
+For a sender, you need 
  * Set up a telegram bot 
  * Run a CKB Testnet node
  * Send and pay red envelopes
  * Use `ckb-cli`(recommended tool) to sign the messages required by the transaction
  * Use `generate-message-tool` to validate the messages by the transaction.
  
-* For a grabber,you just need
+For a grabber,you just need
  * Set a receiving CKB Testnet address.
  * Grad the red envelopes.
 
 As grabbers’ operation is very simple, we will introduce the user guide in detail for senders below.
 
 
-##User Guide for Senders
+## User Guide for Senders
 
-###Set up a telegram bot
+### Set up a telegram bot
  * [Create a telegram bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot) 
  * Send BotFather a list of commands
  
