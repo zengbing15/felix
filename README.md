@@ -1,6 +1,6 @@
 # felix
 
-Felix is a telegram bot demo for interacting with CKB, hopefully with [luck](https://harrypotter.fandom.com/wiki/Felix_Felicis).We can use felix to send and grab CKB red envelopes.For now,felix is only used on the CKB Testnet, will be migrated to the CKB Mainnet for actual usage later. 
+Felix is a telegram bot demo for interacting with CKB, hopefully with [luck](https://harrypotter.fandom.com/wiki/Felix_Felicis).We can use felix to send and grab CKB red envelopes.For now, felix is only used on the CKB Testnet, will be migrated to the CKB Mainnet for actual usage later. 
 
 For a sender, you need 
  * Set up a telegram bot 
