@@ -60,7 +60,7 @@ export https_proxy=http://127.0.0.1:10080;export http_proxy=http://127.0.0.1:100
 npm start
 ``` 
 
-Then you can interact with felix to send and pay red envelops and don't forget to prepare a CKB Testnet address with enough tokens, you can use [Nervos Aggron Faucet](https://faucet.nervos.org/) to claim CKB Testnet tokens.
+Then you can interact with felix to send and pay red envelopes and don't forget to prepare a CKB Testnet address with enough tokens, you can use [Nervos Aggron Faucet](https://faucet.nervos.org/) to claim CKB Testnet tokens.
 
 
 ### Use [`ckb-cli`](https://github.com/nervosnetwork/ckb-cli)(recommended tool) to sign the messages
