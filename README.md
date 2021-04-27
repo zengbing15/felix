@@ -11,7 +11,7 @@ For a sender, you need
  
 For a grabber, you just need
  * Set a receiving CKB Testnet address
- * Grad the red envelopes
+ * Grab the red envelopes
 
 As grabbers’ operation is very simple, we will introduce the user guide in detail for senders below.
 
